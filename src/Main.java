@@ -1,8 +1,8 @@
 public class Main {
     public static void main(String[] args){
-    int number = 343247;
+        int number = 43247;
 
-    int TwentyThousand = (number / 20000) % 10;
+
     int TenThousand = (number / 10000) % 10;
     int thousands = (number / 1000) % 10;
     int hundreds = (number / 100) % 10;
@@ -24,13 +24,12 @@ public class Main {
         tens += 1;
     }
         System.out.println(number + " Ezt az összeget ilyen bakjegyekkel tudod kifizetni: ");
-        System.out.println("húszezresből: " + TwentyThousand);
         System.out.println("tízezresből: " + TenThousand);
         System.out.println("ezresből: " + thousands);
         System.out.println("százasól: " + hundreds);
         System.out.println("tizesből: " + tens);
         System.out.println("ötforintosból: " + ones);
 
-        
+
 }
     }
